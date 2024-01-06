@@ -5,34 +5,36 @@
   import SuperQuality from "./components/SuperQuality.svelte";
   import Services from "./components/Services.svelte";
   import SpecialOffers from "./components/SpecialOffers.svelte";
+  import CustomerReviews from "./components/CustomerReviews.svelte";
+  import Subscribe from "./components/Subscribe.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
 <main class="relative">
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
   <Nav />
-  <section class="xl:padding-1 wide:padding-r padding-b">
+  <section class="xl:padding-1 wide:padding-r padding-b bg-red-400">
     <Hero />
   </section>
-  <section class="padding">
+  <section class="padding bg-blue-400">
     <PopularProducts />
   </section>
-  <section class="padding">
+  <section class="padding bg-red-400">
     <SuperQuality />
   </section>
-  <section class="padding-x py-10">
+  <section class="padding-x py-10 bg-blue-400">
     <Services />
   </section>
-  <section class="padding">
+  <section class="padding bg-red-400">
     <SpecialOffers />
   </section>
-  <section class="padding">
-    <SpecialOffers />
+  <section class="bg-pale-blue padding">
+    <CustomerReviews />
   </section>
-  <section class="padding">
-    <SpecialOffers />
+  <section class="padding-x sm:py-32 py-16 w-full bg-red-400">
+    <Subscribe />
   </section>
-  <section class="padding">
-    <SpecialOffers />
+  <section class="padding bg-black padding-x padding-t pb-8">
+    <Footer />
   </section>
 </main>
 
