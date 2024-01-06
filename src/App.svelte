@@ -12,7 +12,7 @@
 
 <main class="relative">
   <Nav />
-  <section class="xl:padding-1 wide:padding-r padding-b bg-red-400">
+  <section class="xl:padding-1 wide:padding-r padding-b">
     <Hero />
   </section>
   <section class="padding bg-blue-400">
